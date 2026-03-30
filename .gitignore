@@ -1,0 +1,28 @@
+# Build files
+/build/
+out/
+
+# Gradle
+.gradle/
+local.properties
+
+# IntelliJ
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AI Models
+*.pte
+*.pt
+*.bin
+*.gguf
+
+# Large files
+*.zip
+*.tar
