@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         resultText = findViewById(R.id.resultText)
 
         module = Module.load(assetFilePath("smollm_135m_fixed.pte"))
+        //module = Module.load(assetFilePath("simple_model.pte"))
 
         val button = findViewById<Button>(R.id.runButton)
         button.setOnClickListener {
